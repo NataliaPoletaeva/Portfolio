@@ -4,7 +4,7 @@
 
 > This is the first big project students of Microverse should complete. The aim of the project is to use gained knowledge of HTML, CSS, especially Flexbox, Github and Figma. I am glad to introduce the result of my work. This is the mobile version of the future web-page!
 
-![screenshot](![image](https://user-images.githubusercontent.com/91270103/138168135-5633529b-e56e-4f35-8e17-2f560f3b05bc.png))
+![Screenshot](https://user-images.githubusercontent.com/91270103/138168135-5633529b-e56e-4f35-8e17-2f560f3b05bc.png)
 
 Additional description about the project and its features.
 
