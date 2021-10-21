@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+.container {
+  width: 375px;
+}
+
 a {
   text-decoration: none;
 }
@@ -13,10 +17,11 @@ a {
 header {
   height: 48px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   line-height: 16px;
   color: #fff;
+  margin: 0 auto 0 24px;
 }
 
 .logo-placeholder {
@@ -32,16 +37,16 @@ header {
 .ham-menu {
   width: 38px;
   height: 23px;
-  margin-top: 10px;
+  margin: 10px 24px 0 auto;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 47px;
-  margin-right: 20px;
+  align-content: center;
+  margin: 47px auto 0 auto;
 }
 
 .name {
@@ -52,19 +57,21 @@ header {
   font-size: 38px;
   line-height: 72px;
   text-align: center;
-  margin-right: 20px;
+  margin: 0 auto;
 }
 
 .profession {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 327px;
-  height: 65px;
+  height: 87px;
   color: #edecff;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  margin-top: 12px;
+  margin: 12px auto 0 auto;
   text-align: center;
-  margin-right: 20px;
 }
 
 .about {
@@ -75,19 +82,20 @@ header {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  margin-top: 40px;
-  margin-right: 20px;
+  margin: 40px auto 0 auto;
   padding-bottom: 32px;
   border-bottom: 1px solid #646369;
 }
 
 .skill-container {
   display: flex;
+  width: 327px;
   flex-direction: row;
   justify-content: flex-start;
   align-content: center;
   flex-wrap: wrap;
   padding-top: 32px;
+  margin: 0 auto;
 }
 
 ul {
@@ -95,7 +103,7 @@ ul {
   text-align: left;
   padding-inline-start: 0;
   margin-left: 12px;
-  width: 164px;
+  width: 163px;
 }
 
 li {
@@ -104,12 +112,12 @@ li {
   font-size: 15px;
   padding-inline-start: 0;
   margin-left: 12px;
+  padding-top: 19px;
 }
 
 .list-headline {
-  margin: 0;
   padding: 0;
-  margin-left: 12px;
+  margin: 0 auto 0 12px;
   font-size: 12px;
   color: #9490ff;
 }
@@ -119,7 +127,7 @@ li {
   font-size: 15px;
   line-height: 24px;
   text-align: center;
-  width: 167px;
+  width: 163px;
 }
 
 .icons {
@@ -133,8 +141,7 @@ li {
   list-style: none;
   padding: 0;
   padding-top: 48px;
-  margin-top: 35px;
-  margin-left: 6px;
+  margin: 35px auto 0 auto;
   border-top: 1px solid #646369;
 }
 
@@ -152,7 +159,7 @@ li {
   text-align: center;
   color: #a2a3ae;
   width: 327px;
-  margin-bottom: 82px;
+  margin: 38px auto 82px auto;
 }
 
 .down {
