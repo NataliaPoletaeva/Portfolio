@@ -1,6 +1,6 @@
 body {
   background: #191765 url("top circles.png") 0 0 no-repeat;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   padding: 0;
   margin: 0;
@@ -13,7 +13,7 @@ a {
 header {
   height: 48px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   line-height: 16px;
   color: #fff;
@@ -24,34 +24,35 @@ header {
   font-size: 18px;
   width: 81px;
   height: 16px;
-  margin-left: 24px;
   margin-top: 10px;
   color: #fff;
+  text-align: center;
 }
 
 .ham-menu {
   width: 38px;
   height: 23px;
-  margin-right: 24px;
   margin-top: 10px;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 47px;
+  margin-right: 20px;
 }
 
 .name {
   width: 327px;
-  height: 48px;
+  height: px;
   color: #7d73fc;
   font-weight: 700;
   font-size: 38px;
   line-height: 72px;
   text-align: center;
+  margin-right: 20px;
 }
 
 .profession {
@@ -63,6 +64,7 @@ header {
   line-height: 44px;
   margin-top: 12px;
   text-align: center;
+  margin-right: 20px;
 }
 
 .about {
@@ -74,6 +76,7 @@ header {
   line-height: 28px;
   text-align: center;
   margin-top: 40px;
+  margin-right: 20px;
   padding-bottom: 32px;
   border-bottom: 1px solid #646369;
 }
@@ -90,27 +93,31 @@ header {
 ul {
   list-style: none;
   text-align: left;
+  padding-inline-start: 0;
+  margin-left: 12px;
   width: 164px;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-  font-size: 12px;
 }
 
 li {
   color: #f5f5ff;
   text-align: left;
   font-size: 15px;
+  padding-inline-start: 0;
+  margin-left: 12px;
+}
+
+.list-headline {
+  margin: 0;
+  padding: 0;
+  margin-left: 12px;
+  font-size: 12px;
+  color: #9490ff;
 }
 
 .box {
-  flex: 1;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #9490ff;
   text-align: center;
   width: 167px;
 }
@@ -127,7 +134,7 @@ li {
   padding: 0;
   padding-top: 48px;
   margin-top: 35px;
-  margin-left: 24px;
+  margin-left: 6px;
   border-top: 1px solid #646369;
 }
 
@@ -145,10 +152,5 @@ li {
   text-align: center;
   color: #a2a3ae;
   width: 327px;
-  margin-left: 24px;
   margin-bottom: 82px;
-}
-
-.down {
-  padding-right: 12px;
 }
