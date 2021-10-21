@@ -1,0 +1,167 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background: #191765 url("top circles.png") 0 0 no-repeat;
+  width: 375px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 16px;
+  color: #fff;
+  margin: 0 auto 0 24px;
+}
+
+.logo-placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  width: 81px;
+  height: 16px;
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.ham-menu {
+  width: 38px;
+  height: 23px;
+  margin: 10px 24px 0 auto;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 47px auto 0 auto;
+}
+
+.name {
+  width: 327px;
+  height: 55px;
+  color: #7d73fc;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 72px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profession {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 327px;
+  height: 87px;
+  color: #edecff;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 12px auto 0 auto;
+  text-align: center;
+}
+
+.about {
+  width: 327px;
+  height: 170px;
+  color: #c8c8d4;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin: 40px auto 0 auto;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #646369;
+}
+
+.skill-container {
+  display: flex;
+  width: 327px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-top: 32px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding-inline-start: 0;
+  margin-left: 12px;
+  width: 163px;
+}
+
+li {
+  color: #f5f5ff;
+  text-align: left;
+  font-size: 15px;
+  padding-inline-start: 0;
+  margin-left: 12px;
+  padding-top: 19px;
+}
+
+.list-headline {
+  padding: 0;
+  margin: 0 auto 0 12px;
+  font-size: 12px;
+  color: #9490ff;
+}
+
+.box {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  width: 163px;
+}
+
+.icons {
+  width: 327px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+  padding: 0;
+  padding-top: 48px;
+  margin: 35px auto 0 auto;
+  border-top: 1px solid #646369;
+}
+
+.sn {
+  padding: 11px;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #a2a3ae;
+  width: 327px;
+  margin: 38px auto 82px auto;
+}
+
+.down {
+  padding-right: 12px;
+}
