@@ -6,7 +6,7 @@
 
 ![Screenshot](https://user-images.githubusercontent.com/91270103/138291543-befac9bb-d34a-485f-a640-3b09a6f86028.png)
 
-Additional description about the project and its features.
+It will possible to walk through the gallery
 
 ## Built With
 
