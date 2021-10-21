@@ -90,7 +90,10 @@ header {
 ul {
   list-style: none;
   text-align: left;
-  width: 164px;
+  width: 164px; 
+}
+
+h2 {
   font-size: 12px;
 }
 
