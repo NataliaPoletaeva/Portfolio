@@ -1,5 +1,4 @@
 body {
-  background: #191765 url("top circles.png") 0 0 no-repeat;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   padding: 0;
@@ -7,6 +6,7 @@ body {
 }
 
 .container {
+  background: #191765 url("top circles.png") 0 0 no-repeat;
   width: 375px;
 }
 
