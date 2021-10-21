@@ -4,7 +4,7 @@
 
 > This is the first big project students of Microverse should complete. The aim of the project is to use gained knowledge of HTML, CSS, especially Flexbox, Github and Figma. I am glad to introduce the result of my work. This is the mobile version of the future web-page!
 
-![Screenshot](https://user-images.githubusercontent.com/91270103/138168135-5633529b-e56e-4f35-8e17-2f560f3b05bc.png)
+![Screenshot](https://user-images.githubusercontent.com/91270103/138291543-befac9bb-d34a-485f-a640-3b09a6f86028.png)
 
 Additional description about the project and its features.
 
@@ -57,8 +57,4 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
