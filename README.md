@@ -1,18 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio
 
-> One paragraph statement about the project.
+> This is the first big project students of Microverse should complete. The aim of the project is to use gained knowledge of HTML, CSS, especially Flexbox, Github and Figma. I am glad to introduce the result of my work. This is the mobile version of the future web-page!
 
-![screenshot](./app_screenshot.png)
+![Screenshot](https://user-images.githubusercontent.com/91270103/138168135-5633529b-e56e-4f35-8e17-2f560f3b05bc.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Figma
+- Github
 
 ## Live Demo
 
@@ -35,25 +36,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-### Run tests
-
 ### Deployment
 
+## Author
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@NataliaPoletaeva](https://github.com/NataliaPoletaeva)
+- Twitter: [@Fly_Meets](https://twitter.com/Fly_Meets)
 
 ## 🤝 Contributing
 
