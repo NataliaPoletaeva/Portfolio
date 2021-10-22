@@ -1,4 +1,4 @@
- { 
+* {
   padding: 0;
   margin: 0;
 }
@@ -175,7 +175,7 @@ li {
   font-weight: 500;
   font-size: 40px;
   line-height: 52px;
-  color:#9490ff;
+  color: #9490ff;
   margin: 0 auto 48px auto;
   padding-bottom: 33px;
   border-bottom: 1px solid #646369;
@@ -187,7 +187,6 @@ li {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(4, 1fr);
-  grid-auto-rows: minmax(auto);
   grid-row-gap: 48px;
 }
 
@@ -211,7 +210,7 @@ img {
 }
 
 .font-change {
-  font-family: Inter;
+  font-family: 'Inter';
   font-style: normal;
 }
 
@@ -262,7 +261,7 @@ h3 {
 
 button {
   all: unset;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   width: 89px;
   height: 48px;
@@ -270,7 +269,7 @@ button {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #7D73FC;
+  background-color: #7d73fc;
   color: #edecff;
   font-weight: 500;
   font-size: 12px;
@@ -278,7 +277,7 @@ button {
 }
 
 button:hover {
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 button:active {
