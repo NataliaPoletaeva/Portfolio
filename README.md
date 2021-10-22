@@ -17,10 +17,6 @@ It will possible to walk through the work gallery of the software developer in b
 - Figma
 - Github
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
@@ -37,8 +33,6 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 
 ### Usage
-
-### Deployment
 
 ## Author
 
