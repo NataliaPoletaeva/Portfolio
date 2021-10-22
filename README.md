@@ -4,7 +4,6 @@
 
 > This is the first big project students of Microverse should complete. The aim of the project is to use gained knowledge of HTML, CSS, especially Flexbox, Github and Figma. I am glad to introduce the result of my work. This is the mobile version of the future web-page!
 
-![Screenshot](https://user-images.githubusercontent.com/91270103/138291543-befac9bb-d34a-485f-a640-3b09a6f86028.png)
 ![Screenshot](https://user-images.githubusercontent.com/91270103/138444302-dd913271-f9d3-4c0f-977a-07fdc818d099.png)
 
 
@@ -17,6 +16,9 @@ It will possible to walk through the work gallery of the software developer in b
 - Figma
 - Github
 
+## Live Demo
+
+[Click here to try it out yourself](https://raw.githack.com/NataliaPoletaeva/Portfolio/portfolio-works-grid/index.html)
 
 ## Getting Started
 
