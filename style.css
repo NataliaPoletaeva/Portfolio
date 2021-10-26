@@ -292,6 +292,13 @@ button:active, submit:active {
   color: #eaeaf6;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact {
   margin-top: 120px;
 }
@@ -309,7 +316,7 @@ button:active, submit:active {
   margin: 0 auto;
 }
 
-.request {
+.offer {
   width: 327px;
   height: 105px;
   font-family: 'Inter';
@@ -319,17 +326,20 @@ button:active, submit:active {
   line-height: 24px;
   text-align: center;
   color: #f5f5ff;
-  margin: 24px auto 0 auto;
+  margin: 24px auto 28px auto;
 }
 
 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-bottom: 1px solid #3a3837;
   padding-bottom: 70px;
 }
 
 .form-line {
-  display: block;
-  width: 327px;
+  width: 311px;
   height: 48px;
   font-family: 'Inter';
   font-style: normal;
@@ -337,32 +347,26 @@ form {
   font-size: 15px;
   line-height: 24px;
   border: 0;
-  margin: 24px auto;
+  margin: 12px auto;
+  padding-left: 16px;
 }
 
 .form-text {
-  display: block;
-  width: 327px;
-  height: 148px;
+  width: 315px;
+  height: 136px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  margin: 24px auto;
-}
-
-.form-line::placeholder {
-  padding-left: 16px;
-}
-
-.form-text::placeholder {
-  padding: 12px 0 0 12px;
+  margin: 12px auto;
+  padding-left: 12px;
+  padding-top: 12px;
 }
 
 .submit {
   display: block;
-  margin: 40px auto 0 auto;
+  margin: 28px auto 0 auto;
 }
 
 .email-here {
