@@ -43,7 +43,7 @@ header {
   margin: 10px 24px 0 auto;
 }
 
-.intro {
+.about {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -52,7 +52,7 @@ header {
   margin: 47px auto 0 auto;
 }
 
-.name {
+#name {
   width: 327px;
   height: 55px;
   color: #7d73fc;
@@ -77,7 +77,7 @@ header {
   text-align: center;
 }
 
-.about {
+.intro {
   width: 327px;
   height: 170px;
   color: #c8c8d4;
@@ -139,9 +139,16 @@ li {
   align-content: center;
   list-style: none;
   padding: 0;
+}
+
+.icons:last-child {
+  margin: 5px auto 9px auto;
+}
+
+.icons:not(:last-child) {
+  border-top: 1px solid #646369;
   padding-top: 48px;
   margin: 35px auto 0 auto;
-  border-top: 1px solid #646369;
 }
 
 .sn {
@@ -165,7 +172,7 @@ li {
   padding-right: 12px;
 }
 
-.work-head {
+#work-head {
   width: 327px;
   height: 104px;
   display: flex;
@@ -258,7 +265,7 @@ h3 {
   border-right: 1px solid #646369;
 }
 
-button {
+button, .submit {
   all: unset;
   font-family: 'Inter';
   font-style: normal;
@@ -275,12 +282,99 @@ button {
   line-height: 24px;
 }
 
-button:hover {
+button:hover, .submit:hover {
   box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
 }
 
-button:active {
+button:active, submit:active {
   box-shadow: none;
   background-color: #5e42d7;
   color: #eaeaf6;
+}
+
+.contact {
+  margin-top: 120px;
+}
+
+#contact-heading {
+  width: 327px;
+  height: 35px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #9390ff;
+  margin: 0 auto;
+}
+
+.request {
+  width: 327px;
+  height: 105px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+  margin: 24px auto 0 auto;
+}
+
+form {
+  border-bottom: 1px solid #3a3837;
+  padding-bottom: 70px;
+}
+
+.form-line {
+  display: block;
+  width: 327px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  border: 0;
+  margin: 24px auto;
+}
+
+.form-text {
+  display: block;
+  width: 327px;
+  height: 148px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 24px auto;
+}
+
+.form-line::placeholder {
+  padding-left: 16px;
+}
+
+.form-text::placeholder {
+  padding: 12px 0 0 12px;
+}
+
+.submit {
+  display: block;
+  margin: 40px auto 0 auto;
+}
+
+.email-here {
+  width: 221px;
+  height: 29px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: 0 auto;
+  padding-bottom: 40px;
 }
