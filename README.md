@@ -18,7 +18,7 @@ It will possible to walk through the work gallery of the software developer in b
 
 ## Live Demo
 
-[Click here to try it out yourself](https://raw.githack.com/NataliaPoletaeva/Portfolio/portfolio-works-grid/index.html)
+[Click here to try it out yourself](https://raw.githack.com/NataliaPoletaeva/Portfolio/form/index.html)
 
 ## Getting Started
 
