@@ -278,7 +278,7 @@ footer {
 #contact-heading {
   width: 327px;
   height: 35px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -291,7 +291,7 @@ footer {
 .offer {
   width: 327px;
   height: 105px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -313,7 +313,7 @@ form {
 .form-line {
   width: 311px;
   height: 48px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -326,7 +326,7 @@ form {
 .form-text {
   width: 315px;
   height: 136px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -344,7 +344,7 @@ form {
 .email-here {
   width: 221px;
   height: 29px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -358,7 +358,7 @@ form {
 button,
 .submit {
   all: unset;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   width: 89px;
   height: 48px;
@@ -375,10 +375,10 @@ button,
 
 button:hover,
 .submit:hover {
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
-button:active, 
+button:active,
 .submit:active {
   box-shadow: none;
   background-color: #5e42d7;
