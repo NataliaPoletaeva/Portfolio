@@ -1,4 +1,4 @@
-* { 
+* {
   padding: 0;
   margin: 0;
 }
@@ -180,7 +180,7 @@ li {
   font-weight: 500;
   font-size: 40px;
   line-height: 52px;
-  color:#9490ff;
+  color: #9490ff;
   margin: 0 auto 48px auto;
   padding-bottom: 33px;
   border-bottom: 1px solid #646369;
@@ -188,11 +188,10 @@ li {
 
 .wrapper {
   width: 375px;
-  background: #191765 url("portfolio background shapes mobile.png") 0 0 no-repeat;;
+  background: #191765 url("portfolio background shapes mobile.png") 0 0 no-repeat;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(4, 1fr);
-  grid-auto-rows: minmax(auto);
   grid-row-gap: 48px;
 }
 
@@ -216,7 +215,7 @@ img {
 }
 
 .font-change {
-  font-family: Inter;
+  font-family: 'Inter';
   font-style: normal;
 }
 
@@ -263,33 +262,6 @@ h3 {
 
 .work-lang li:not(:last-child) {
   border-right: 1px solid #646369;
-}
-
-button, .submit {
-  all: unset;
-  font-family: 'Inter';
-  font-style: normal;
-  width: 89px;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #7D73FC;
-  color: #edecff;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 24px;
-}
-
-button:hover, .submit:hover {
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
-}
-
-button:active, submit:active {
-  box-shadow: none;
-  background-color: #5e42d7;
-  color: #eaeaf6;
 }
 
 footer {
@@ -354,7 +326,7 @@ form {
 .form-text {
   width: 315px;
   height: 136px;
-  font-family: Inter;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -381,4 +353,34 @@ form {
   color: #ebebff;
   margin: 0 auto;
   padding-bottom: 40px;
+}
+
+button,
+.submit {
+  all: unset;
+  font-family: 'Inter';
+  font-style: normal;
+  width: 89px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #7d73fc;
+  color: #edecff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+button:hover,
+.submit:hover {
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+button:active, 
+.submit:active {
+  box-shadow: none;
+  background-color: #5e42d7;
+  color: #eaeaf6;
 }
