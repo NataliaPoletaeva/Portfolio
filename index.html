@@ -18,12 +18,12 @@
     <div class="container">
         <header>
             <a href="#" class="logo-placeholder">John Doe</a>
+            <ul class="nav-elements">
+                <li class="nav-item"><a href="#work-head">Portfolio</a></li>
+                <li class="nav-item"><a href="#name">About</a></li>
+                <li class="nav-item"><a href="#contact-head">Contacts</a></li>
+            </ul>
             <nav class="ham-menu">
-                <ul class="nav-elements">
-                    <li class="nav-item"><a href="#work-head">Portfolio</a></li>
-                    <li class="nav-item"><a href="#name">About</a></li>
-                    <li class="nav-item"><a href="#contact-head"></a>Contacts</li>
-                </ul>
                 <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M0.333496 1.58325C0.333496 1.03097 0.781211 0.583252 1.3335 0.583252H34.6668C35.2191 0.583252 35.6668 1.03097 35.6668 1.58325C35.6668 2.13554 35.2191 2.58325 34.6668 2.58325H1.3335C0.781211 2.58325 0.333496 2.13554 0.333496 1.58325ZM0.333496 11.9999C0.333496 11.4476 0.781212 10.9999 1.3335 10.9999L34.6668 10.9999C35.2191 10.9999 35.6668 11.4476 35.6668 11.9999C35.6668 12.5522 35.2191 12.9999 34.6668 12.9999L1.3335 12.9999C0.781211 12.9999 0.333496 12.5522 0.333496 11.9999ZM1.3335 21.4166C0.781211 21.4166 0.333496 21.8643 0.333496 22.4166C0.333496 22.9689 0.781211 23.4166 1.3335 23.4166H34.6668C35.2191 23.4166 35.6668 22.9689 35.6668 22.4166C35.6668 21.8643 35.2191 21.4166 34.6668 21.4166H1.3335Z"
@@ -32,43 +32,47 @@
             </nav>
         </header>
         <main>
-            <section class="about">
-                <h1 id="name">Natalia Poletaeva</h1>
-                <h2 class="profession">Software Developer</h2>
-                <p class="intro">I can help you build a product, feature or website. Look through some of my work and
-                    experience! If you like what you see and have a project you need coded, don’t hestiate to contact
-                    me.
-                </p>
-            </section>
-            <div class="skill-container">
-                <div class="box languages">
-                    <ul>
-                        <li class="list-headline">Languages</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Ruby</li>
-                    </ul>
-                </div>
-                <div class="box frameworks">
-                    <ul>
-                        <li class="list-headline">Frameworks</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby on Rails</li>
-                        <li>RSPec</li>
-                        <li>CapyBara</li>
-                        <li>Selenium</li>
-                    </ul>
-                </div>
-                <div class="box skills">
-                    <ul>
-                        <li class="list-headline">Skills</li>
-                        <li>Codekit</li>
-                        <li>Github</li>
-                        <li>Gitlab</li>
-                        <li>Codepen</li>
-                        <li>Terminal</li>
-                    </ul>
+            <div class="about-dt">
+                <section class="about">
+                    <h1 id="name">Natalia Poletaeva</h1>
+                    <h2 class="profession">Software Developer</h2>
+                    <p class="intro">I can help you build a product, feature or website. Look through some of my work
+                        and
+                        experience! If you like what you see and have a project you need coded, don’t hestiate to
+                        contact
+                        me.
+                    </p>
+                </section>
+                <div class="skill-container">
+                    <div class="box">
+                        <ul>
+                            <li class="list-headline">Languages</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <ul>
+                            <li class="list-headline">Frameworks</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby on Rails</li>
+                            <li>RSPec</li>
+                            <li>CapyBara</li>
+                            <li>Selenium</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <ul>
+                            <li class="list-headline">Skills</li>
+                            <li>Codekit</li>
+                            <li>Github</li>
+                            <li>Gitlab</li>
+                            <li>Codepen</li>
+                            <li>Terminal</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="connect">
@@ -129,8 +133,8 @@
                     <div class="item">
                         <span class="fb fb1">
                             <img src="Img Placeholder.png" alt="Project 1">
-                            <h3>Multi-Post Stories</h3>
                             <div class="font-change">
+                                <h3>Multi-Post Stories</h3>
                                 <p class="description">A daily selection of privately personalized reads; no accounts or
                                     sign-ups required. has been the
                                     industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -150,9 +154,9 @@
                     </div>
                     <div class="item">
                         <span class="fb fb2">
-                            <img src="Img Placeholder.png" alt="Project 2">
-                            <h3>Multi-Post Stories</h3>
+                            <img src="Img Placeholder.png" alt="Project">
                             <div class="font-change">
+                                <h3>Multi-Post Stories</h3>
                                 <p class="description">A daily selection of privately personalized reads; no accounts or
                                     sign-ups required. has been the
                                     industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -173,8 +177,8 @@
                     <div class="item">
                         <span class="fb fb1">
                             <img src="Img Placeholder.png" alt="Project 3">
-                            <h3>Multi-Post Stories</h3>
                             <div class="font-change">
+                                <h3>Multi-Post Stories</h3>
                                 <p class="description">A daily selection of privately personalized reads; no accounts or
                                     sign-ups required. has been the
                                     industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -195,8 +199,8 @@
                     <div class="item">
                         <span class="fb fb2">
                             <img src="Img Placeholder.png" alt="Project 4">
-                            <h3>Multi-Post Stories</h3>
                             <div class="font-change">
+                                <h3>Multi-Post Stories</h3>
                                 <p class="description">A daily selection of privately personalized reads; no accounts or
                                     sign-ups required. has been the
                                     industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -226,8 +230,7 @@
                     <input class="form-line" type="text" maxlength="30" placeholder="Full name" name="fullname"
                         required>
                     <input class="form-line" type="email" placeholder="youraddress@gmail.com" name="email" required>
-                    <textarea class="form-text" name="message" maxlength="500" placeholder="Enter text here"
-                        required></textarea>
+                    <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
                     <input class="submit" type="submit" value="Get in touch">
                 </form>
             </section>

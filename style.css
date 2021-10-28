@@ -6,11 +6,11 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  background: #191765 url("top circles.png") 0 0 no-repeat;
 }
 
 .container {
-  background: #191765 url("top circles.png") 0 0 no-repeat;
-  width: 375px;
+  width: 100%;
 }
 
 a {
@@ -18,20 +18,21 @@ a {
 }
 
 header {
-  height: 48px;
+  width: 100%;
+  height: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  line-height: 16px;
+  line-height: 2rem;
   color: #fff;
-  margin: 0 auto 0 24px;
+  margin: 0 auto 0 1.5rem;
 }
 
 .logo-placeholder {
+  width: 5rem;
+  height: 1rem;
   font-weight: 500;
   font-size: 18px;
-  width: 81px;
-  height: 16px;
   margin-top: 10px;
   color: #fff;
   text-align: center;
@@ -39,103 +40,108 @@ header {
 
 .ham-menu {
   width: 38px;
-  height: 23px;
-  margin: 10px 24px 0 auto;
+  height: 1.5rem;
+  margin: 10px 1.5rem 0 auto;
 }
 
 .nav-elements {
   display: none;
 }
 
+.about-dt {
+  width: 20.5rem;
+  margin: 0 auto;
+}
+
 .about {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   align-content: center;
-  margin: 47px auto 0 auto;
+  margin: 3rem auto 0 auto;
 }
 
 #name {
-  width: 327px;
-  height: 55px;
+  height: 3.5rem;
   color: #7d73fc;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 40px;
   line-height: 72px;
   text-align: center;
   margin: 0 auto;
 }
 
 .profession {
+  height: 5.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 327px;
-  height: 87px;
+  text-align: center;
   color: #edecff;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  margin: 12px auto 0 auto;
-  text-align: center;
+  margin: 0.75rem auto 0 auto;
 }
 
 .intro {
-  width: 327px;
-  height: 170px;
+  height: 10.5rem;
   color: #c8c8d4;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  margin: 40px auto 0 auto;
-  padding-bottom: 32px;
+  margin: 2.5rem auto 0 auto;
+  padding-bottom: 2rem;
   border-bottom: 1px solid #646369;
 }
 
 .skill-container {
+  width: 100%;
   display: flex;
-  width: 327px;
   flex-direction: row;
   justify-content: flex-start;
-  align-content: center;
   flex-wrap: wrap;
-  padding-top: 32px;
+  padding-top: 2rem;
   margin: 0 auto;
 }
 
 ul {
   list-style: none;
   text-align: left;
-  width: 163px;
+  width: 100%;
+}
+
+.list-headline {
+  font-size: 12px;
+  line-height: 24px;
+  color: #9490ff;
+  padding-top: 0;
+  padding-left: 2.75rem;
+  margin: 0 auto;
 }
 
 li {
   color: #f5f5ff;
   text-align: left;
   font-size: 15px;
-  padding-top: 19px;
-}
-
-.list-headline {
-  padding: 0;
-  margin: 0 auto 0 12px;
-  font-size: 12px;
-  color: #9490ff;
+  line-height: 24px;
+  padding-top: 1.25rem;
+  padding-left: 2.75rem;
 }
 
 .box {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   text-align: center;
-  width: 163px;
+  width: 10.25rem;
 }
 
 .icons {
-  width: 327px;
-  height: 40px;
+  width: 20.5rem;
+  height: 2.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -145,21 +151,26 @@ li {
   padding: 0;
 }
 
-.icons:last-child {
-  margin: 5px auto 9px auto;
+.icons > li {
+  padding-left: 0;
 }
 
-.icons:not(:last-child) {
+.icons:last-child {
+  margin: 0.25rem auto 0.5rem auto;
+}
+
+.icons:first-child {
   border-top: 1px solid #646369;
-  padding-top: 48px;
-  margin: 35px auto 0 auto;
+  padding-top: 3rem;
+  margin: 2.25rem auto 0 auto;
 }
 
 .sn {
-  padding: 11px;
+  padding: 0.75rem;
 }
 
 .arrow {
+  width: 20.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -168,35 +179,38 @@ li {
   line-height: 32px;
   text-align: center;
   color: #a2a3ae;
-  width: 327px;
-  margin: 38px auto 84px auto;
+  margin: 2.5rem auto 5.25rem auto;
 }
 
 .down {
-  padding-right: 12px;
+  padding-right: 0.75rem;
+}
+
+.works {
+  background: #191765 url("portfolio background shapes mobile.png") 0 0 no-repeat;
 }
 
 #work-head {
-  width: 327px;
-  height: 104px;
+  width: 20.5rem;
+  height: 6.5rem;
   display: flex;
   align-items: center;
   font-weight: 500;
   font-size: 40px;
   line-height: 52px;
   color: #9490ff;
-  margin: 0 auto 48px auto;
+  margin: 0 auto 3rem auto;
   padding-bottom: 33px;
   border-bottom: 1px solid #646369;
 }
 
 .wrapper {
-  width: 375px;
-  background: #191765 url("portfolio background shapes mobile.png") 0 0 no-repeat;
+  width: 100%;
+  height: auto;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(4, 1fr);
-  grid-row-gap: 48px;
+  grid-row-gap: 3rem;
 }
 
 .item {
@@ -208,14 +222,14 @@ img {
 }
 
 .fb {
-  width: 327px;
+  width: 20.5rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .font-change {
@@ -224,18 +238,18 @@ img {
 }
 
 h3 {
-  height: 105px;
+  height: 6.5rem;
   display: flex;
   align-items: center;
   font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 2rem;
+  line-height: 2.75rem;
   color: #fff;
   margin: 0 auto 0 0;
 }
 
 .description {
-  height: 204px;
+  height: 12.75rem;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -248,18 +262,18 @@ h3 {
   align-items: center;
   justify-content: flex-start;
   align-content: center;
-  height: 40px;
+  height: 2.5rem;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   color: #fff;
-  margin: 24px auto 24px 0;
+  margin: 1.5rem auto 1.5rem 0;
 }
 
 .work-lang > li {
+  height: 2.5rem;
   display: flex;
   padding: 0 1rem;
-  height: 40px;
   text-align: center;
   align-items: center;
 }
@@ -276,12 +290,13 @@ footer {
 }
 
 .contact {
-  margin-top: 120px;
+  width: 20.5rem;
+  margin-top: 7.5rem;
+  border-bottom: 1px solid #3a3837;
 }
 
 #contact-head {
-  width: 327px;
-  height: 35px;
+  height: 2.25rem;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -293,8 +308,7 @@ footer {
 }
 
 .offer {
-  width: 327px;
-  height: 105px;
+  height: 6.5rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -302,61 +316,55 @@ footer {
   line-height: 24px;
   text-align: center;
   color: #f5f5ff;
-  margin: 24px auto 28px auto;
+  margin: 1.5rem auto 1.75rem auto;
 }
 
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid #3a3837;
-  padding-bottom: 70px;
+  align-items: center; 
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 4.5rem;
 }
 
 .form-line {
-  width: 311px;
-  height: 48px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
+  width: 19.5rem;
+  height: 3rem;
   border: 0;
-  margin: 12px auto;
-  padding-left: 16px;
+  margin: 0.75rem auto;
+  padding: 0 0.75rem 0 0.75rem;
 }
 
-.form-text {
-  width: 315px;
-  height: 136px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  margin: 12px auto;
-  padding-left: 12px;
-  padding-top: 12px;
+textarea {
+  width: 19.5rem;
+  height: 8.5rem;
+  font-family: 'Roboto', sans-serif;
+  margin: 0.75rem auto 2.5rem auto;
+  padding: 0.75rem;
 }
 
 .submit {
   display: block;
-  margin: 28px auto 0 auto;
+  margin: 0 auto;
 }
 
 .email-here {
-  width: 221px;
-  height: 29px;
+  width: 14rem;
+  height: 2.75rem;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
   text-align: center;
   color: #ebebff;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
 }
 
 button,
@@ -364,8 +372,8 @@ button,
   all: unset;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  width: 89px;
-  height: 48px;
+  width: 5.5rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -373,8 +381,8 @@ button,
   background-color: #7d73fc;
   color: #edecff;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 24px;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
 }
 
 button:hover,
@@ -387,4 +395,164 @@ button:active,
   box-shadow: none;
   background-color: #5e42d7;
   color: #eaeaf6;
+}
+
+@media (min-width: 800px) {
+  body {
+    background: #191765 url("two circles header.png") 0 0 no-repeat;
+  }
+
+  header {
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .skill-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-elements {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: 0 auto;
+  }
+
+  .ham-menu {
+    display: none;
+  }
+
+  .about-dt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 7.125rem auto 0 auto;
+  }
+
+  .about {
+    width: 28rem;
+    margin: 0 auto;
+  }
+
+  #name {
+    height: auto;
+    font-size: 54px;
+    line-height: 105px;
+    margin: 0 auto;
+  }
+
+  .profession {
+    font-size: 40px;
+    line-height: 47px;
+    margin: 0 auto;
+  }
+
+  .intro {
+    height: auto;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 5.5rem auto 0 auto;
+  }
+
+  .list-headline {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .icons {
+    width: 28rem;
+  }
+
+  .works {
+    background: #191765 url("Group 65.png") 0 0 no-repeat;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 5.5rem;
+  }
+
+  .fb {
+    width: 72.25rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 auto;
+    gap: 1.5rem;
+  }
+
+  .fb2 {
+    flex-direction: row-reverse;
+  }
+
+  img {
+    width: 60%;
+    height: auto;
+  }
+
+  .font-change {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .description {
+    height: 8.75rem;
+  }
+
+  footer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact {
+    width: 40.5rem;
+    margin: 14.25rem auto 0 auto;
+  }
+
+  form {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  
+  .form-line,
+  textarea {
+    width: 96%;
+  }
+
+  #contact-head {
+    font-size: 40px;
+    line-height: 24px;
+  }
+
+  .offer {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 1.5rem auto 1.75rem auto;
+  }
+
+  button,
+  .submit {
+    width: 10rem;
+    height: 3rem;
+  }
+
+  .submit {
+    margin: 8.5rem auto 0 auto;
+  }
+
 }
