@@ -564,4 +564,8 @@ button:active,
     transform: scale(1.25);
   }
 
+  .list-headline:hover {
+    color: #f88dad;
+    transform: scale(1.25);
+  }
 }
