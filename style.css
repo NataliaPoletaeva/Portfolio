@@ -558,4 +558,10 @@ button:active,
   button:hover,
   .submit:hover {
     transform: scale(1.1);
+  }
+
+  .sn:hover {
+    transform: scale(1.25);
+  }
+
 }
