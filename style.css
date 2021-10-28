@@ -568,4 +568,9 @@ button:active,
     color: #f88dad;
     transform: scale(1.25);
   }
+
+  h3:hover {
+    color: #f88dad;
+    transform: scale(1.1);
+  }
 }
