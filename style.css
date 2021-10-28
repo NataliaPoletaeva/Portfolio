@@ -555,4 +555,7 @@ button:active,
     margin: 8.5rem auto 0 auto;
   }
 
+  button:hover,
+  .submit:hover {
+    transform: scale(1.1);
 }
