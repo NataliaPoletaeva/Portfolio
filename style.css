@@ -323,7 +323,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -510,7 +510,7 @@ button:active,
     flex-direction: column;
     gap: 1.5rem;
   }
-  
+
   .description {
     height: 8.75rem;
   }
@@ -519,6 +519,7 @@ button:active,
     margin-left: auto;
     margin-right: auto;
   }
+
   .contact {
     width: 40.5rem;
     margin: 14.25rem auto 0 auto;
@@ -528,7 +529,7 @@ button:active,
     font-size: 17px;
     line-height: 20px;
   }
-  
+
   .form-line,
   textarea {
     width: 96%;
@@ -573,4 +574,5 @@ button:active,
     color: #f88dad;
     transform: scale(1.1);
   }
+
 }
