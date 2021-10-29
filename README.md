@@ -2,9 +2,9 @@
 
 # Portfolio
 
-> This is the first big project students of Microverse should complete. The aim of the project is to use gained knowledge of HTML, CSS, especially Flexbox, Github and Figma. I am glad to introduce the result of my work. This is the mobile version of the future web-page!
+> This is the first big project students of Microverse should complete. The aim of the project is to use gained knowledge of HTML, CSS, especially Flexbox, Github and Figma. I am glad to introduce the result of my work: both mobile and desktop versions.
 
-![Screenshot](https://user-images.githubusercontent.com/91270103/138895156-697caf6a-1f55-4c34-890c-33de527e30cc.png)
+![Screenshot](https://user-images.githubusercontent.com/91270103/139307833-deddd18d-9cf6-4224-8d61-c720314faf14.png)
 
 It will be possible to walk through the work gallery of the software developer in both desktop and mobile versions.
 
@@ -17,7 +17,7 @@ It will be possible to walk through the work gallery of the software developer i
 
 ## Live Demo
 
-[Click here to try it out yourself](https://raw.githack.com/NataliaPoletaeva/Portfolio/form/index.html)
+[Click here to try it out yourself](https://raw.githack.com/NataliaPoletaeva/Portfolio/desktop-version/index.html)
 
 ## Getting Started
 
