@@ -17,7 +17,7 @@ It will be possible to walk through the work gallery of the software developer i
 
 ## Live Demo
 
-[Click here to try it out yourself](https://raw.githack.com/NataliaPoletaeva/Portfolio/desktop-version/index.html)
+[Click here to try it out yourself](https://nataliapoletaeva.github.io/Portfolio)
 
 ## Getting Started
 
