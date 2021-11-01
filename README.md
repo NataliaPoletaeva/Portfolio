@@ -6,7 +6,7 @@
 
 ![Screenshot](https://user-images.githubusercontent.com/91270103/139307833-deddd18d-9cf6-4224-8d61-c720314faf14.png)
 
-It will be possible to walk through the work gallery of the software developer in both desktop and mobile versions.
+It will be possible to walk through the work gallery of the software developer's projects in both desktop and mobile versions.
 
 ## Built With
 
