@@ -382,7 +382,9 @@ button,
 }
 
 button:hover,
-.submit:hover {
+.submit:hover,
+button:focus,
+.submit:focus {
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
