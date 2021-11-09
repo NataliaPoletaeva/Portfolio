@@ -38,6 +38,31 @@ header {
   color: #fff;
 }
 
+.ham-menu {
+  all: unset;
+  background-color: transparent;
+  width: 38px;
+  position: fixed;
+  top: 1.5rem;
+  right: 3rem;
+}
+
+.close-icon {
+  all: unset;
+  display: none;
+  position: fixed;
+  top: 1.5rem;
+  right: 3rem;
+}
+
+.ham-menu:hover,
+.ham-menu:active,
+.close-icon:hover,
+.close-icon:active {
+  box-shadow: none;
+  background-color: transparent;
+}
+
 .nav-elements {
   display: none;
 }
