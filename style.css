@@ -16,9 +16,13 @@ body {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 header {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,11 +39,54 @@ header {
 }
 
 .ham-menu {
+  all: unset;
+  background-color: transparent;
   width: 38px;
+  position: fixed;
+  top: 1.5rem;
+  right: 3rem;
+}
+
+.close-icon {
+  all: unset;
+  display: none;
+  position: fixed;
+  top: 1.5rem;
+  right: 3rem;
+}
+
+.ham-menu:hover,
+.ham-menu:active,
+.close-icon:hover,
+.close-icon:active {
+  box-shadow: none;
+  background-color: transparent;
 }
 
 .nav-elements {
   display: none;
+}
+
+.menuAppear {
+  background: #191765 url("background/top circles.png") 0 0 no-repeat;
+  background-size: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: none;
+  gap: 1.5rem;
 }
 
 .about-dt {
@@ -435,7 +482,8 @@ button:active,
     margin-left: 2rem;
   }
 
-  .ham-menu {
+  .ham-menu,
+  .close-icon {
     display: none;
   }
 
