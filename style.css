@@ -19,9 +19,10 @@ a {
   color: #fff;
 }
 
-
-
 header {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,43 +33,13 @@ header {
 }
 
 .logo-placeholder {
-  position: fixed;
-  top: 2rem;
-  left: 3rem;
   font-weight: 500;
   font-size: 18px;
   color: #fff;
 }
 
-.ham-menu {
-  width: 38px;
-  position: fixed;
-  top: 1.5rem;
-  right: 3rem;
-}
-
-.close-icon {
-  display: none;
-  position: fixed;
-  top: 1.5rem;
-  right: 3rem;
-}
-
 .nav-elements {
   display: none;
-}
-
-.menuAppear {
-  background: #191765 url("background/top circles.png") 0 0 no-repeat;
-  background-size: 100%;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
 }
 
 .about-dt {
