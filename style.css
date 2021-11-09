@@ -28,7 +28,7 @@ header {
   align-items: center;
   line-height: 2rem;
   color: #fff;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 3rem 0 3rem;
   margin: 0 auto 0 1.5rem;
 }
 
@@ -69,10 +69,11 @@ header {
 
 .nav-elements2{
   display: none;
+  padding-top: 3rem;
 }
 
 .menuAppear {
-  background: #191765 url("background/top circles.png") 0 0 no-repeat;
+  background: #191765 url("background/shapes mobile menu.png") 0 0 no-repeat;
   background-size: 100%;
   position: fixed;
   top: 0;
@@ -80,17 +81,21 @@ header {
   bottom: 0;
   left: 0;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: none;
+  gap: 0.5rem;
+}
+
+.nav-item2 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  box-shadow: none;
-  gap: 1.5rem;
+  padding-left: 2.5rem; 
 }
 
 .about-dt {
@@ -104,7 +109,7 @@ header {
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin: 3rem auto 0 auto;
+  margin: 1rem auto 0 auto;
 }
 
 #name {
@@ -115,6 +120,7 @@ header {
   line-height: 72px;
   text-align: center;
   margin: 0 auto;
+  padding-top: 2.5rem;
 }
 
 .profession {
@@ -235,8 +241,8 @@ li {
   font-size: 40px;
   line-height: 52px;
   color: #9490ff;
-  margin: 3rem auto;
-  padding-bottom: 2rem;
+  margin: 2rem auto;
+  padding: 3.5rem 0 1rem 0;
   border-bottom: 1px solid #646369;
 }
 
@@ -324,7 +330,7 @@ footer {
 
 .contact {
   width: 20.5rem;
-  margin-top: 7.5rem;
+  margin-top: 6rem;
 }
 
 #contact-head {
@@ -337,6 +343,7 @@ footer {
   text-align: center;
   color: #9390ff;
   margin: 0 auto;
+  padding-top: 3.5rem;
 }
 
 .offer {
@@ -618,6 +625,7 @@ display: none;
   }
 
   #contact-head {
+    padding-top: 2rem;
     font-size: 40px;
     line-height: 24px;
   }
