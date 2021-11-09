@@ -20,7 +20,7 @@ a {
 }
 
 header {
-  position: -webkit-sticky; 
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   display: flex;
@@ -67,7 +67,7 @@ header {
   display: none;
 }
 
-.nav-elements2{
+.nav-elements2 {
   display: none;
   padding-top: 3rem;
 }
@@ -95,7 +95,7 @@ header {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
-  padding-left: 2.5rem; 
+  padding-left: 2.5rem;
 }
 
 .about-dt {
@@ -459,9 +459,9 @@ button:active,
     background-size: 100%;
   }
 
-.nav-elements2{
-display: none;
-}
+  .nav-elements2 {
+    display: none;
+  }
 
   header {
     display: flex;
