@@ -37,4 +37,16 @@ const arrProject = [
     }
 ]
 
+const techProject = document.querySelector(".pop-container");
+const popBtn = document.querySelectorAll(".see-project");
+const closeBtn = document.querySelector(".close-button");
 
+popBtn.forEach(function (popBtn) {
+  popBtn.addEventListener("click", () => {
+    if (techProject.style.display === "none") {
+      techProject.style.display = "block";
+    } else {
+      techProject.style.display = "none";
+    }
+  });
+});
