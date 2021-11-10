@@ -50,3 +50,11 @@ popBtn.forEach(function (popBtn) {
     }
   });
 });
+
+closeBtn.addEventListener("click", () => {
+  if (techProject.style.display === "block") {
+      techProject.style.display = "none";
+  } else {
+      techProject.style.display = "block";
+  }
+});
