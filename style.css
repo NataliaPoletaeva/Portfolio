@@ -61,6 +61,7 @@ header {
 .close-icon:active {
   box-shadow: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .nav-elements {
@@ -109,7 +110,7 @@ header {
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin: 1rem auto 0 auto;
+  margin: 0 auto;
 }
 
 #name {
@@ -276,7 +277,7 @@ img {
   font-style: normal;
 }
 
-h3 {
+.card-head {
   height: 6.5rem;
   display: flex;
   align-items: center;
@@ -421,7 +422,7 @@ textarea {
   padding-bottom: 2.5rem;
 }
 
-button,
+[type=button],
 .submit {
   all: unset;
   font-family: 'Inter', sans-serif;
@@ -439,18 +440,20 @@ button,
   line-height: 1.5rem;
 }
 
-button:hover,
+[type=button]:hover,
 .submit:hover,
-button:focus,
+[type=button]:focus,
 .submit:focus {
+  cursor: pointer;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
-button:active,
+[type=button]:active,
 .submit:active {
   box-shadow: none;
   background-color: #5e42d7;
   color: #eaeaf6;
+  cursor: pointer;
 }
 
 @media (min-width: 992px) {
@@ -514,7 +517,7 @@ button:active,
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 5rem auto 0 auto;
+    margin: 2rem auto 0 auto;
   }
 
   .about {
@@ -636,7 +639,7 @@ button:active,
     margin: 1.5rem auto 1.75rem auto;
   }
 
-  button,
+  [type=button],
   .submit {
     font-size: 18px;
     width: 10rem;
@@ -680,7 +683,7 @@ button:active,
     margin: 0;
   }
 
-  button:hover,
+  [type=button]:hover,
   .submit:hover {
     transform: scale(1.1);
     cursor: pointer;
@@ -697,7 +700,7 @@ button:active,
     cursor: pointer;
   }
 
-  h3:hover {
+  .card-head:hover {
     color: #f88dad;
     transform: scale(1.1);
     cursor: pointer;
