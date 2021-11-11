@@ -12,12 +12,12 @@ function menuToggle() {
   } else {
     menu.classList.add('menuAppear');
     closeIcon.style.display = 'block';
-    menuIcon.style.display = 'non';
+    menuIcon.style.display = 'none';
   }
 }
 
 hamburger.addEventListener('click', menuToggle);
 
-menuItems.forEach(function (menuItems) {
+menuItems.forEach((menuItems) => {
   menuItems.addEventListener('click', menuToggle);
 });

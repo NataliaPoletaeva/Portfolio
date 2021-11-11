@@ -27,7 +27,7 @@ const arrProject = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     technologies: ['html', 'css', 'ruby', 'bootstrap'],
   },
-]
+];
 
 window.addEventListener('DOMContentLoaded', () => {
   arrProject.forEach((project) => {
@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const popBtn = document.querySelectorAll('.see-project');
   const techProject = document.querySelector('.pop-container');
 
-  popBtn.forEach(function pop(popBtn) {
+  popBtn.forEach((popBtn) => {
     popBtn.addEventListener('click', () => {
       techProject.style.display = 'block';
     });
@@ -63,7 +63,3 @@ window.addEventListener('DOMContentLoaded', () => {
     techProject.style.display = 'none';
   });
 });
-
-
-
-
