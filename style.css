@@ -39,7 +39,6 @@ header {
 }
 
 .ham-menu {
-  all: unset;
   background-color: transparent;
   width: 38px;
   position: fixed;
