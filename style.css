@@ -235,9 +235,7 @@ li {
 
 #work-head {
   width: 85%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  text-align: center;
   font-weight: 500;
   font-size: 40px;
   line-height: 52px;
@@ -261,20 +259,21 @@ img {
   margin: 0 auto;
 }
 
-.fb {
+.project-card {
   width: 20.5rem;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
-  align-content: flex-start;
   gap: 1.5rem;
+  margin: 0 auto;
 }
 
 .font-change {
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  color: #fff;
 }
 
 .card-head {
@@ -284,7 +283,6 @@ img {
   font-weight: 500;
   font-size: 2rem;
   line-height: 2.75rem;
-  color: #fff;
   margin: 0 auto 0 0;
 }
 
@@ -296,7 +294,7 @@ img {
   color: #dcdce8;
 }
 
-.work-lang {
+.card-technologies {
   width: 312px;
   display: flex;
   align-items: center;
@@ -310,7 +308,7 @@ img {
   margin: 1.5rem auto 1.5rem 0;
 }
 
-.work-lang > li {
+.card-technologies > li {
   height: 2.5rem;
   display: flex;
   padding: 0 1rem;
@@ -318,7 +316,7 @@ img {
   align-items: center;
 }
 
-.work-lang li:not(:last-child) {
+.card-technologies li:not(:last-child) {
   border-right: 1px solid #646369;
 }
 
@@ -445,7 +443,7 @@ textarea {
 [type=button]:focus,
 .submit:focus {
   cursor: pointer;
-  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  box-shadow: 0 0.5rem 1rem rgba(125, 115, 252, 0.48);
 }
 
 [type=button]:active,
@@ -458,62 +456,93 @@ textarea {
 
 .pop-container {
   display: none;
+  width: 100%;
+  height: 100%;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .pop-overlay {
   position: fixed;
-  top: 3%;
-  left: 5%;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
+  overflow: auto;
 }
 
 .pop-content {
-  width: 90%;
-  height: 100vh;
-  background-color: rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  position: fixed;
+  top: 3%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  padding: 0.75rem 1.25rem;
+  width: 85%;
+  height: 150%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #fff;
+  margin: 0 auto;
+}
+
+.pop-header {
+  padding: 0.75rem 1.25rem;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 1.5rem;
 }
 
-.close-button {
-  color: #fff;
-  cursor: pointer;
-}
-
-.pop-heading {
+.pop-header .pop-title {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.75rem;
   color: #fff;
+}
+
+.pop-header .close-button {
+  font-size: 1.75rem;
+  line-height: 1.75rem;;
+  color: #fff;
+  cursor: pointer;
+}
+
+.pop-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
+  gap: 2.5rem;
+  overflow: auto;
 }
 
 .pop-img {
-  width: 75%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
 }
 
 .pop-description {
+  width: 90%;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   color: #fff;
+  margin: 0 auto;
 }
 
 .pop-techs {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -524,11 +553,25 @@ textarea {
 
 .pop-tech {
   text-align: center;
-  border-left: 1px solid #000;
+  border-left: 1px solid #fff;
+  padding: 1rem;
 }
 
+.pop-techs > .pop-tech:last-of-type {
+  border-right: 1px solid #fff;
+}
 
+.pop-btn {
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.pop-btn > a {
+  margin: 0.5rem auto;
+}
 
 @media (min-width: 992px) {
   body {
@@ -637,7 +680,7 @@ textarea {
   }
 
   #work-head {
-    width: 72.25rem;
+    width: 85%;
     justify-content: flex-start;
     font-size: 64px;
     line-height: 114px;
@@ -646,14 +689,18 @@ textarea {
     border-bottom: 1px solid #646369;
   }
 
-  .fb {
-    width: 72.25rem;
+  .project-card {
+    width: 80%;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
     margin: 0 auto;
     gap: 1.5rem;
+  }
+  
+  .item:nth-child(2n) {
+    flex-direction: row-reverse;
   }
 
   img {
@@ -666,14 +713,6 @@ textarea {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-  }
-
-  .fb2 {
-    flex-direction: row-reverse;
-  }
-
-  .description {
-    height: 8.75rem;
   }
 
   .arrow {
@@ -778,5 +817,21 @@ textarea {
     color: #f88dad;
     transform: scale(1.1);
     cursor: pointer;
+  }
+
+  .pop-header {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+
+  .pop-content {
+    height: 127%;
+  }
+
+  .pop-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
