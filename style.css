@@ -509,7 +509,7 @@ textarea {
 
 .pop-header .close-button {
   font-size: 1.75rem;
-  line-height: 1.75rem;;
+  line-height: 1.75rem;
   color: #fff;
   cursor: pointer;
 }
@@ -569,7 +569,7 @@ textarea {
   align-items: center;
 }
 
-.pop-btn > a {
+.pop-btn > [type=button] {
   margin: 0.5rem auto;
 }
 
@@ -698,7 +698,7 @@ textarea {
     margin: 0 auto;
     gap: 1.5rem;
   }
-  
+
   .item:nth-child(2n) {
     flex-direction: row-reverse;
   }
