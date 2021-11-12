@@ -253,12 +253,11 @@ li {
   gap: 3rem;
 }
 
-.item,
 img {
   margin: 0 auto;
 }
 
-.project-card {
+.item {
   width: 20.5rem;
   display: flex;
   flex-direction: column;
@@ -550,7 +549,7 @@ textarea {
   line-height: 20px;
 }
 
-.pop-tech {
+.pop-techs > li {
   text-align: center;
   border-left: 1px solid #fff;
   padding: 1rem;
