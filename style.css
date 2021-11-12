@@ -485,7 +485,7 @@ textarea {
   padding: 0.75rem 1.25rem;
   width: 85%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #100f458a;
   border: 1px solid #fff;
   margin: 0 auto;
 }
@@ -509,7 +509,7 @@ textarea {
 
 .pop-header .close-button {
   font-size: 1.75rem;
-  line-height: 1.75rem;;
+  line-height: 1.75rem;
   color: #fff;
   cursor: pointer;
 }
@@ -525,7 +525,7 @@ textarea {
 }
 
 .pop-img {
-  width: 100%;
+  width: 70%;
   height: auto;
   margin: 0 auto;
 }
@@ -698,7 +698,7 @@ textarea {
     margin: 0 auto;
     gap: 1.5rem;
   }
-  
+
   .item:nth-child(2n) {
     flex-direction: row-reverse;
   }
@@ -825,7 +825,7 @@ textarea {
   }
 
   .pop-content {
-    height: 127%;
+    height: 125%;
   }
 
   .pop-btn {
@@ -833,5 +833,9 @@ textarea {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+
+  .pop-btn button {
+    margin: 0 3rem;
   }
 }

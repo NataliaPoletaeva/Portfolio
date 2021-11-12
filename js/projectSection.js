@@ -1,7 +1,7 @@
 const arrProject = [
   {
     id: '1',
-    heading: 'Multi-post Stories 1',
+    heading: 'Multi-post Stories',
     image: 'background/Img_Placeholder.png',
     alternative: 'Project',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
@@ -9,7 +9,7 @@ const arrProject = [
   },
   {
     id: '2',
-    heading: 'Multi-post Stories 2',
+    heading: 'Multi-post Stories',
     image: 'background/Img_Placeholder.png',
     alternative: 'Project',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
@@ -17,7 +17,7 @@ const arrProject = [
   },
   {
     id: '3',
-    heading: 'Multi-post Stories 3',
+    heading: 'Multi-post Stories',
     image: 'background/Img_Placeholder.png',
     alternative: 'Project',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
@@ -25,7 +25,7 @@ const arrProject = [
   },
   {
     id: '4',
-    heading: 'Multi-post Stories 4',
+    heading: 'Multi-post Stories',
     image: 'background/Img_Placeholder.png',
     alternative: 'Project',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
@@ -35,12 +35,10 @@ const arrProject = [
 
 for (let i = 0; i < arrProject.length; i += 1) {
   const project = arrProject[i];
-
-  function showPopup(i) {
+  function showPopup() {
     const techProject = document.createElement('div');
     techProject.id = 'pop-container';
     const popUp = document.createElement('div');
-
     popUp.classList.add = '.pop-overlay';
     popUp.innerHTML = ` <div class="pop-overlay">
                             <div class="pop-content">
@@ -63,7 +61,8 @@ for (let i = 0; i < arrProject.length; i += 1) {
                           </div> `;
     techProject.appendChild(popUp);
     document.querySelector('.works').appendChild(techProject);
-    const closeBtn = document.querySelector('.close-button')
+    techProject.style.display = 'block';
+    const closeBtn = document.querySelector('.close-button');
     closeBtn.addEventListener('click', () => {
       techProject.style.display = 'none';
     });
