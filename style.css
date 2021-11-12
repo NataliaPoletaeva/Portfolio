@@ -39,6 +39,7 @@ header {
 }
 
 .ham-menu {
+  all: unset;
   background-color: transparent;
   width: 38px;
   position: fixed;
@@ -253,11 +254,12 @@ li {
   gap: 3rem;
 }
 
+.item,
 img {
   margin: 0 auto;
 }
 
-.item {
+.project-card {
   width: 20.5rem;
   display: flex;
   flex-direction: column;
@@ -482,7 +484,7 @@ textarea {
   bottom: 5%;
   padding: 0.75rem 1.25rem;
   width: 85%;
-  height: 150%;
+  height: 100%;
   background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid #fff;
   margin: 0 auto;
@@ -507,7 +509,7 @@ textarea {
 
 .pop-header .close-button {
   font-size: 1.75rem;
-  line-height: 1.75rem;
+  line-height: 1.75rem;;
   color: #fff;
   cursor: pointer;
 }
@@ -549,7 +551,7 @@ textarea {
   line-height: 20px;
 }
 
-.pop-techs > li {
+.pop-tech {
   text-align: center;
   border-left: 1px solid #fff;
   padding: 1rem;
@@ -567,7 +569,7 @@ textarea {
   align-items: center;
 }
 
-.pop-btn > [type=button] {
+.pop-btn > a {
   margin: 0.5rem auto;
 }
 
@@ -696,7 +698,7 @@ textarea {
     margin: 0 auto;
     gap: 1.5rem;
   }
-
+  
   .item:nth-child(2n) {
     flex-direction: row-reverse;
   }
