@@ -484,8 +484,8 @@ textarea {
   bottom: 5%;
   padding: 0.75rem 1.25rem;
   width: 85%;
-  height: 100%;
-  background-color: #100f458a;
+  height: 135%;
+  background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid #fff;
   margin: 0 auto;
 }
@@ -562,15 +562,15 @@ textarea {
 }
 
 .pop-btn {
-  padding: 2rem 4rem;
+  margin: 2rem 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-.pop-btn > a {
-  margin: 0.5rem auto;
+.pop-btn > [type=button] {
+  margin: 0.5rem;
 }
 
 @media (min-width: 992px) {
@@ -825,7 +825,7 @@ textarea {
   }
 
   .pop-content {
-    height: 125%;
+    height: 113%;
   }
 
   .pop-btn {
@@ -835,7 +835,7 @@ textarea {
     align-items: center;
   }
 
-  .pop-btn button {
-    margin: 0 3rem;
+  .pop-btn > [type=button] {
+    margin: 0.5rem 1rem 2rem 1rem;
   }
 }
