@@ -168,11 +168,12 @@
                 <h2 id="contact-head">CONTACT US</h2>
                 <p class="offer">If you have an application you are interested in developing, a feature that
                     you need built or a project that needs coding, I’d love to help with it!</p>
-                <form action="https://formspree.io/f/xvodnlkd" method="post">
+                <form action="https://formspree.io/f/xvodnlkd" method="post" class="contact-form">
                     <input class="form-line" type="text" maxlength="30" placeholder="Full name" name="fullname"
                         required>
                     <input class="form-line" type="email" placeholder="youraddress@gmail.com" name="email" required>
                     <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
+                    <div class="error-msg"></div>
                     <input class="submit" type="submit" value="Get in touch">
                 </form>
             </section>
@@ -228,6 +229,7 @@
 
     <script src="js/projectSection.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/formValidation.js"></script>
 </body>
 
 </html>
