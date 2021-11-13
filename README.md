@@ -28,6 +28,8 @@ It will be possible to walk through the work gallery of the software developer's
 
 ### Usage
 
+The page is deployed so please visit the link in the "Live Demo" section.
+
 ## Author
 
 - GitHub: [@NataliaPoletaeva](https://github.com/NataliaPoletaeva)
