@@ -454,6 +454,19 @@ textarea {
   cursor: pointer;
 }
 
+.error-msg {
+  display: none;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 100%;
+  height: 3rem;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
 .pop-container {
   display: none;
   width: 100%;
